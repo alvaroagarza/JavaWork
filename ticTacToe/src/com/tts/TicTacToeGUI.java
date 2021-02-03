@@ -62,7 +62,7 @@ public class TicTacToeGUI extends Canvas implements MouseListener
                     g.drawString("O wins!", 160, 400);
                 if ( ttt.isCat() )
                     g.drawString("TIE GAME", 50, 400);
-                    System.out.println("Strange game. The only winning move is not to play at all.");
+//                   Strange game. The only winning move is not to play at all.
             }
             else
             {
